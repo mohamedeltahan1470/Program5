@@ -1,0 +1,22 @@
+  * {
+    margin: 0;
+}
+#parent{
+    margin: auto;
+    width:80%;
+}
+
+.photos img{
+    float: left;
+    width:  24%;
+    height: 300px;
+}
+
+.photos img:hover{
+    border:2px solid rgb(25, 0, 255);
+    cursor:pointer;
+}
+.main{
+    margin:auto;
+ 
+}

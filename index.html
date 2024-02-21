@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+  <div id="parent">
+    <div class="photos">
+      <img onmouseenter="main2.src= this.src" src="images/w21.jpeg" alt="">
+      <img onmouseenter="main2.src= this.src" src="images/w22.jpeg" alt="">
+      <img onmouseenter="main2.src= this.src" src="images/w23.jpeg" alt="">
+      <img onmouseenter="main2.src= this.src" src="images/w24.jpeg" alt="">
+    </div><br>
+  
+        <div class="main">
+          <img src="images/w27.jpeg" alt="" name="main2">
+        </div>
+  
+        <div class="gallary">
+          <div class="photos">
+              <img onclick="main2.src =  this.src" src="images/w17.jpeg" alt="">
+              <img onclick="main2.src =  this.src"  src="images/w18.jpeg" alt="">
+              <img onclick="main2.src =  this.src"  src="images/w19.jpeg" alt="">
+              <img onclick="main2.src =  this.src"  src="images/w20.jpeg" alt="">
+          </div>
+        </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
